@@ -151,7 +151,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, reactive } from 'vue'
+import { computed, ref, reactive, watch } from 'vue'
 import { useEditorStore } from '@/stores/editor'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import { 
@@ -418,7 +418,6 @@ function watchProjectSettings() {
 }
 
 // 监听对话框状态
-import { watch } from 'vue'
 watch(showProjectSettings, watchProjectSettings)
 </script>
 
