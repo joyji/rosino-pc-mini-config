@@ -1,0 +1,1 @@
+# rosino-pc-mini-config
