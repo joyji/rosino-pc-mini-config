@@ -334,7 +334,7 @@ export default {
     console.log('App Hide')
   }
 }
-</script>
+<\/script>
 
 <style>
 /* 应用全局样式 */
